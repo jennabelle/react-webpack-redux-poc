@@ -1,9 +1,9 @@
 # react-webpack-redux-poc
 a poc for learning react, webpack, redux, es6, babel
 
-```npm install
+`npm install`
 
-npm install webpack --save -g```
+`npm install webpack --save -g`
 
 To run webpack-dev-server:
 
