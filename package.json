@@ -1,0 +1,25 @@
+{
+  "name": "react-webpack-redux-poc",
+  "version": "1.0.0",
+  "description": "a poc for learning react, webpack, redux, es6",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jennabelle/react-webpack-redux-poc"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Jenna Vuong",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "express": "4.13.4",
+    "mongoose": "4.4.5",
+    "node-jsx": "0.13.3",
+    "react": "0.14.7",
+    "react-dom": "0.14.7",
+    "react-router": "^2.0.1",
+    "webpack": "^1.12.14"
+  }
+}
