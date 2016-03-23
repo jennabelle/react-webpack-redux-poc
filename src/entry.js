@@ -1,4 +1,4 @@
-// need to install loaders (css-loader, style-loader) for webpack to bundle and load css files
+// need to npm install loaders (css-loader, style-loader) for webpack to bundle and load css files
 require("!style!css!../style.css");
 
 // 1st file, open index.html in browser to this work
