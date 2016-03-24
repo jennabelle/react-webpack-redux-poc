@@ -15,14 +15,16 @@
 // go to http://localhost:8080/webpack-dev-server/
 
 module.exports = {
-    entry: "./src/entry.js",
+    entry: "./index.js",
     output: {
         path: __dirname,
         filename: "./src/bundle.js"
     },
     module: {
         loaders: [
-            { test: /\.css$/, loader: "style!css" }
+            // jenna: not sure if you can put 2 loaders here
+            { test: /\.css$/, loader: "style!css" },
+            { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader?presets[]=es2015&presets[]=react' }
         ]
     }
 };
